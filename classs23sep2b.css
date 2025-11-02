@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;          
+  gap: 20px;             
+  padding: 20px; 
+}
+
+
+.text-box1  {
+  flex: 1;                
+  background-color: lavender;   
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.796);
+  color: mediumslateblue;
+}
+  .text-box2  {
+    flex:1;
+    background-color: aquamarine;
+    padding: 15px;
+    box-shadow: 0 0 10px rosybrown ;
+    color: magenta;
+  }

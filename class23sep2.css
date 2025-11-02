@@ -1,0 +1,19 @@
+/* styles.css */
+
+.text-box h2 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 8px;
+  color: #2c3e50;
+}
+
+.text-box p {
+  text-align: justify;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-indent: 50px;
+  color: #555;
+  font-size: 18px;
+}

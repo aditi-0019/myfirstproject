@@ -1,0 +1,21 @@
+/*@media  (min-width: 400px) and (max-width: 800px) {
+  body
+{ 
+   . {
+    background-color: purple;
+  } 
+}
+}*/
+ /* When screen width is 600px or less */
+/* When screen width is 600px or less */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightpink;
+    color: darkred; /* moved here — text color for paragraph */
+  }
+
+  h1 {
+    color: purple;
+  }
+}
+

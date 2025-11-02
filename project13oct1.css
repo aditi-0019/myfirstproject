@@ -1,0 +1,22 @@
+img {
+   display:block;
+   margin:0 auto;
+   width: 200px;
+   height :200px;       
+  border-radius:10%;  
+  object-fit:cover;  
+      
+}
+
+.center-container img{
+  height:100vh;
+  display:flex;
+  justify-content:center; 
+  align-items: center;
+}
+.center-container img{
+  width:200px;
+  height:200px ;
+  border-radius:10%;
+  object-fit:cover;
+}
