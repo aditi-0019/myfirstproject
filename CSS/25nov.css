@@ -1,0 +1,38 @@
+/* Flex Container */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content:space-between;
+}
+
+/* Common box styling */
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual colours */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;   /* Better contrast on yellow */
+}

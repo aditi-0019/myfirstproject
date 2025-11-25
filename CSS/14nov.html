@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe recusandae a impedit tempore quod maiores est voluptate labore consequatur quis libero corrupti quasi aspernatur vero itaque sed ipsum, iusto architecto tenetur ad. Perspiciatis repudiandae voluptatem fugiat id accusamus iusto quis sapiente, vel, repellat cumque molestiae?</p>
+    <div class="container"></div>
+
+</body> 
+</html>   -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emit Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 100px;
+      background: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box" id="box">Click here  </div>
+
+<script>
+  // Create a custom event
+  const event = new Event("boxClicked");
+
+  // Listen to the custom event
+  document.addEventListener("boxClicked", () => {
+    alert("Event emitted successfully!");
+  });
+
+  // Emit the event when box is clicked
+  document.getElementById("box").addEventListener("click", () => {
+    document.dispatchEvent(event); // emit
+  });
+</script>
+
+</body>
+</html>
