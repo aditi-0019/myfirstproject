@@ -3,14 +3,14 @@
     display: flex;
     gap: 20px;
     padding: 20px;
-    justify-content:space-between;
+    justify-content:center;
 }
 
 /* Common box styling */
 .box {
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 1px;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -21,18 +21,18 @@
 
 /* Individual colours */
 .red {
-    background-color: red;
+    background-color: rgb(201, 73, 73);
 }
 
 .blue {
-    background-color: blue;
+    background-color: rgb(144, 144, 238);
 }
 
 .green {
-    background-color: green;
+    background-color: rgb(110, 208, 110);
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgb(240, 240, 174);
     color: black;   /* Better contrast on yellow */
 }
